@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+#navbar {
+    display : flex ;
+    flex-direction: column;
+    position: fixed;
+    width: 20%;
+    border-right: 3px solid gray;
+    height: 100%;
+    
+}
+
+
+#fHeader {
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 15px 0px 0px 10px ;
+}
+
+#navbar ul {
+        
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+#navbar ul li {
+    /* width: 100%; */
+    border-top: 1px solid black;
+    padding: 15px 0px 15px 10px ;
+}
+
+#navbar a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(97, 97, 97);
+
+  
+}
+
+main {
+margin-left: 25%;
+margin-top: 2%;
+}
+
+header {
+    font-size: 150%;
+    
+}  
+  
+
+
+code {
+    display: block;
+    background-color: rgb(235, 234, 234);
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 800px) {
+   
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar {
+        display : flex ;
+        flex-direction: column;
+        height: 150px;
+        width: 80%;
+        position: relative;
+        border: 2px solid grey;
+        margin-top: 20px;
+
+    }
+    #navbar ul {
+        
+        padding: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+    main {
+        
+        position: relative;
+        margin: 20px 0 0 4% ;
+
+    }
+    #fHeader {
+        
+        border-top: 0px solid rgb(0, 0, 0);
+       
+    }
+
+}
